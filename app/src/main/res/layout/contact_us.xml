@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/image"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="55 Es3af"
+        android:textSize="20dp"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:id="@+id/text"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/background_dark"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/view" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="55 Es3af is a medicalDirecetly mobile application for Ismailia city developed by a group of students of faculty of compters and informatics Suez canal university."
+        android:textColor="@color/black"
+        android:maxWidth="300dp"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/view"
+        android:id="@+id/descption"
+        android:textSize="16dp"
+
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:text="01099863590"
+        android:layout_alignRight="@+id/text"
+        android:layout_alignEnd="@+id/text"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descption"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="55Es3af@gmail.com"
+        android:textSize="20dp"
+        />
+
+
+</RelativeLayout>
+    </ScrollView>

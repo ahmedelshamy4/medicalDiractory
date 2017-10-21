@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo1"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="245dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="10dp"
+        android:hint="First Name"
+
+        android:textStyle="italic" />
+
+    <EditText
+        android:layout_width="245dp"
+        android:layout_height="40dp"
+        android:hint="Last Name"
+        android:textStyle="italic"
+
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+
+        android:id="@+id/last_name"/>
+
+    <EditText
+        android:layout_width="245dp"
+        android:layout_height="40dp"
+        android:hint=" Email"
+        android:textStyle="italic"
+
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+
+        android:id="@+id/Your_mail"/>
+
+
+    <EditText
+        android:layout_width="245dp"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:textStyle="italic"
+
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/Reg_password"
+        android:inputType="numberPassword"
+     />
+
+    <EditText
+        android:layout_width="245dp"
+        android:layout_height="40dp"
+        android:hint="Mobile Number"
+
+        android:textStyle="italic"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+
+        android:id="@+id/mobil"
+        />
+
+    <Button
+        android:id="@+id/register"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="120dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textStyle="italic"
+        android:background="@color/colorPrimary"
+        android:shadowDx="0" android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+</LinearLayout>
